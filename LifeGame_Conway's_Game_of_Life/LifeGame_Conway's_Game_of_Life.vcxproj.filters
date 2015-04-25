@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0_0_Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="0_0_System">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="1_0_AppManager">
+      <UniqueIdentifier>{cd5aef7e-6c87-4749-ba85-ddf201faebf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0_1_SuperClass">
+      <UniqueIdentifier>{beb6ae65-0244-4a77-b6df-c2f208532ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_Map">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="0_2_library">
+      <UniqueIdentifier>{319219af-3f1d-4cc1-97f5-8e66aad684ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>0_0_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>0_0_System</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>1_0_AppManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Library.cpp">
+      <Filter>0_2_library</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>1_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>1_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>1_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>0_2_library</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>0_0_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>0_0_System</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>1_0_AppManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>0_1_SuperClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Library.h">
+      <Filter>0_2_library</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>1_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>1_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MajorBase.h">
+      <Filter>0_1_SuperClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>1_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>0_2_library</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
